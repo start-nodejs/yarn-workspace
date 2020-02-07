@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "workspaces": [
+    "project1",
+    "project2"
+  ],
+  "scripts": {
+    "build": "yarn workspaces run build"
+  },
+  "license": "MIT"
+}
